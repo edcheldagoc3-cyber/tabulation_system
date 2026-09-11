@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # XAMPP serves this project from its public directory.
+    RewriteRule ^$ /tabulation_system/public/ [R=302,L]
+</IfModule>

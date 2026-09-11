@@ -1,0 +1,68 @@
+Folder PATH listing
+Volume serial number is EAEF-8E8D
+C:.
+¦   .env
+¦   .env.example
+¦   .htaccess
+¦   full_project.txt
+¦   project_structure.txt
+¦   
++---app
+¦   +---controllers
+¦   ¦       AdminController.php
+¦   ¦       AuthController.php
+¦   ¦       JudgeController.php
+¦   ¦       ScoreController.php
+¦   ¦       TabulatorController.php
+¦   ¦       ViewerController.php
+¦   ¦       
+¦   +---core
+¦   ¦       Auth.php
+¦   ¦       Controller.php
+¦   ¦       Model.php
+¦   ¦       TabulationEngine.php
+¦   ¦       
+¦   +---models
+¦   ¦       CategoryModel.php
+¦   ¦       ContestantModel.php
+¦   ¦       CriteriaModel.php
+¦   ¦       EventModel.php
+¦   ¦       JudgeAssignmentModel.php
+¦   ¦       ResultModel.php
+¦   ¦       ScoreModel.php
+¦   ¦       UserModel.php
+¦   ¦       
+¦   +---views
+¦       ¦   login.php
+¦       ¦   
+¦       +---admin
+¦       ¦       assign_judge.php
+¦       ¦       category_form.php
+¦       ¦       contestant_form.php
+¦       ¦       criterion_form.php
+¦       ¦       dashboard.php
+¦       ¦       event_form.php
+¦       ¦       
+¦       +---auth
+¦       ¦       login.php
+¦       ¦       
+¦       +---judge
+¦       ¦       dashboard.php
+¦       ¦       scoring.php
+¦       ¦       
+¦       +---tabulator
+¦       ¦       dashboard.php
+¦       ¦       
+¦       +---viewer
+¦               leaderboard.php
+¦               
++---config
+¦       database.php
+¦       
++---database
+¦       schema.sql
+¦       
++---public
+        .htaccess
+        index.php
+        
